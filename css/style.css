@@ -197,13 +197,8 @@
 /* Start About Area */
 .about-area{
     margin-top: 500px;
-    /* background: #000046;  /* fallback for old browsers */
-    /* background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
-    /* background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-      background-image: linear-gradient(90deg, #141518 0%, #573699 100%);
-
-
-    
+    background-image: linear-gradient(90deg, #141518 0%, #573699 100%);
+    overflow: hidden;    
 } 
 
 .site-main .about-area{
@@ -794,26 +789,48 @@
 /* Footer Area */ 
 
 footer.footer-area{
-    padding: 10rem 10rem;
-    background: url(../img/footer2.png) no-repeat;
-    margin-top: 2200px;
-    width: 100%;
-    object-fit: cover;
-    height: 60%;
+      background-color: #854fee;
+
 }
 
-footer.footer-area .social h5{
-    font: normal 500 23px/ 30px var(--roboto);
+.icn{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
 }
 
-footer.footer-area .social a > i{
-    font-size:22px;
-    padding: 2rem;
-    color: var(--border-color);
+.icn i{
+    font-size: 40px;    
 }
 
-footer.footer-area .social a:hover > i{
-    color: var(--primary-color);
+.row .txt_1{
+    font-family: cursive;
+    font-weight: 700;
+    margin-left: 111px;
+    margin-bottom: 30px;
+}
+
+.txt_2{
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.last{
+    background-color: #373738;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 0;
+}
+
+.last p{
+    margin: 0;
 }
 
 
